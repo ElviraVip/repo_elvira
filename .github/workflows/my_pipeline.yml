@@ -1,0 +1,29 @@
+
+name: My first CI
+
+description: My first ci and la la la
+
+on:
+  pull_request:
+   branches: [ "main" ]
+  push:
+    branches: [ "main" ]
+
+jobs:
+  simple_job:
+   runs-on: ubuntu-latest
+   steps:
+      - uses: actions/checkout@v4
+      - name: echo hello world
+        run: echo Hello, world!
+      - name: date show
+        run: echo $(date)
+
+  simple_secpnd__job:
+   runs-on: ubuntu-latest
+   steps:
+      - uses: actions/checkout@v4
+      - name: echo hello world
+        run: echo Hello, world!
+      - name: date show
+        run: echo $(date)
