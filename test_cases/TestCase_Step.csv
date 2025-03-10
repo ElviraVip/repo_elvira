@@ -1,0 +1,10 @@
+﻿No,Issue Key,Summary,Assignee,Priority,Reporter,Data,Action,Expected result
+1,JUS-940,Оформление кредита,Эльвира,Medium,Эльвира,,,
+1,,,,,,"<p><span style=""background-color:rgb(34, 39, 43)"">https://idemo.bspb.ru/</span></p>",<p>Перейти на сайт банка</p>,<p>Открылась страница сайта</p>
+1,,,,,,<p>логин - demo</p>,<p>Ввести в поле логин</p>,"<p><span style=""background-color:rgb(34, 39, 43)"">В поле логина отображается ""demo""</span></p>"
+1,,,,,,<p>пароль- demo</p>,<p>Ввести в поле пароль</p>,"<p><span style=""background-color:rgb(34, 39, 43)"">В поле логина отображается ****</span></p>"
+1,,,,,,,"<p><span style=""background-color:rgb(34, 39, 43)"">Нажать кнопку ""подтвердить""</span></p>","<p><span style=""background-color:rgb(34, 39, 43)"">Открывается страница с запросом кода из СМС</span></p>"
+1,,,,,,"<p>Код ""0000""</p>","<p><span style=""background-color:rgb(34, 39, 43)"">Ввести код в поле для кода</span></p>","<p><span style=""background-color:rgb(34, 39, 43)"">В поле для кода отображается ""0000""</span></p>"
+1,,,,,,,"<p><span style=""background-color:rgb(34, 39, 43)"">Нажать кнопку ""подтвердить""</span></p>",<p>Открывается главная страница сайта</p>
+1,,,,,,,"<p>Нажать на вкладку ""Кредиты""</p>",<p>Открылся раздел с кредитами</p>
+1,,,,,,,"<p>Нажать на вкладку ""Оформить кредитный продукт""</p>",<p>Открылась страница с выбором кредита</p>
